@@ -43,6 +43,13 @@ p {
 
 .cta {
     background-color: #0D28A6;
+    padding: 4rem;
+    padding-inline: 20rem;
+}
+
+.cta-text {
+font-weight: 100;
+font-size: .8rem;
 }
 
 .features-img {
