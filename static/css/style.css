@@ -1,0 +1,24 @@
+/* HERO */
+/* .hero-section {
+    background-color: #F1F3FF;
+} */
+
+.hero-title {
+    font-family: Helvetica;
+    font-weight: 700;
+}
+
+.container-fluid {
+    background-color: #F1F3FF;
+}
+
+
+ul {
+    list-style-image: url("static/assets/Group 53.png");
+}
+
+.brand-box {
+    width: 100px;
+    height: 34px;
+    background-color: blue;
+}
