@@ -1,24 +1,64 @@
-/* HERO */
-/* .hero-section {
-    background-color: #F1F3FF;
-} */
-
-.hero-title {
+h1, h2, h3, h4, h5, h6 {
     font-family: Helvetica;
     font-weight: 700;
+}
+
+p {
+    font-family: Helvetica;
+    font-weight: 300;
+}
+
+.brand-box {
+    width: 100px;
+    height: 34px;
+    padding: 0;
+    margin: 0;
+    background-color: blue;
 }
 
 .container-fluid {
     background-color: #F1F3FF;
 }
 
-
-ul {
-    list-style-image: url("static/assets/Group 53.png");
+.testimonial-card {
+    --bs-card-bg: #F1F3FF !important;
 }
 
-.brand-box {
-    width: 100px;
-    height: 34px;
-    background-color: blue;
+/* Features */
+
+.features {
+    margin: 5rem;
+}
+
+.why-us, .testimonial, .cta, .faq {
+    margin-block: 7rem;
+}
+
+.footer {
+    margin-block-start: 7rem;
+}
+
+.cta {
+    background-color: #0D28A6;
+}
+
+.features-img {
+    height: 70%;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    margin-block: 1rem;
+}
+
+.check-icon {
+    background: url('../assets/Group 53.png') no-repeat left top;
+    padding-left: 2rem;
 }
