@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Inter';
     font-weight: 700;
 }
@@ -8,6 +13,16 @@ h1, h2, h3, h4, h5, h6 {
 p {
     font-family: Helvetica;
     font-weight: 300;
+}
+
+.section-link {
+    font-family: 'Inter';
+    font-weight: 700;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
 }
 
 .brand-box {
@@ -32,24 +47,27 @@ p {
     margin: 5rem;
 }
 
-.why-us, .testimonial, .cta, .faq {
+.why-us,
+.testimonial,
+.cta,
+.faq {
     margin-block: 7rem;
 }
 
 .footer {
-    margin-block-start: 7rem;
+    margin-block-start: 9rem;
     margin-block-end: 4rem;
 }
 
 .cta {
     background-color: #0D28A6;
-    padding: 4rem;
+    padding: 6rem;
     padding-inline: 20rem;
 }
 
 .cta-text {
-font-weight: 100;
-font-size: .8rem;
+    font-weight: 100;
+    font-size: .8rem;
 }
 
 .features-img {
